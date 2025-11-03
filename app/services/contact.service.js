@@ -11,6 +11,11 @@ class ContactService {
       address: payload.address,
       phone: payload.phone,
       favorite: payload.favorite,
+
+      // baitap nang cao CẬP NHẬT: Thêm các trường mới
+      //company: payload.company,
+      //notes: payload.notes,
+      //colleague: payload.colleague,
     };
     // Remove undefined fields
     Object.keys(contact).forEach(
